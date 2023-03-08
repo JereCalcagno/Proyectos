@@ -1,0 +1,68 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background: steelblue;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.spiderman{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    animation: spiderman 5s infinite;
+}
+
+@keyframes spiderman{
+    o%{
+        transform: translateY(-50px);
+    }
+    30%{
+        transform: translateY(0) rotate(5deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+
+}
+
+.container_koda{
+    width: 400px;
+    height: 400px;
+    background: green;
+    margin: 40px auto;
+    overflow: hidden;
+    padding-top: 150px;
+}
+
+.koda{
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+    animation: spiderman 5s infinite;
+}
+
+@keyframes koda{
+    o%{
+        transform: translateY(-80px);
+    }
+    30%{
+        transform: translateY(0) rotate(5deg);
+    }
+    50%{
+        transform: rotate(-10deg);
+    }
+    75%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: translateY(-80px);
+    }
+
+}
